@@ -5,15 +5,13 @@
     "production": ["default"],
     "sharedGlobals": []
   },
-  "nxCloudUrl": "http://localhost:4203",
-  "nxCloudId": "67ed8095864f226a94af75ec",
+  "nxCloudUrl": "http://localhost:4202",
+  "nxCloudId": "67ed858205019e88fda03c5d",
   "plugins": [
     {
       "plugin": "@nx/js/typescript",
       "options": {
-        "typecheck": {
-          "targetName": "typecheck"
-        },
+        "typecheck": { "targetName": "typecheck" },
         "build": {
           "targetName": "build",
           "configName": "tsconfig.lib.json",
